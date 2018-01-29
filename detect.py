@@ -4,7 +4,8 @@ import sys
 from string import Template
 count = 0
 # first argument is the haarcascades path
-path = '/usr/local/opencv/opencv-3.1.0/data/haarcascades/haarcascade_frontalface_default.xml'
+#please edit below path
+path = 'Path to haarcascade_frontalface_default.xml'
 face_cascade = cv2.CascadeClassifier(os.path.expanduser(path))
 
 scale_factor = 1.1
