@@ -22,7 +22,7 @@ for infname in sys.argv[1:]:
 
    for( x, y, w, h ) in faces:
      count=count+1
-     cv2.rectangle(image, (x, y), (x + w, y + h), (255, 255, 0), 2)
+     cv2.rectangle(image, (x, y), (x + w, y + h), (255, 255, 0), 1)
      outfname = "detected/%s.faces.jpg" % os.path.basename(infname)
      cv2.imwrite(os.path.expanduser(outfname), image)
 file = open("testfile.txt","r") 
