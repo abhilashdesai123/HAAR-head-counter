@@ -9,3 +9,5 @@ Step 2: Goto detect.py and initalize $path variable by feeding in your "haarcasc
 
 Step 3: Run fr.py with crowd.mp4 as arg "python fr.py crowd.mp4"
 
+Step 4: Enjoy
+
